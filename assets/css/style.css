@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .3s cubic-bezier(.38, 1.15, .7, 1.12);
+    font-weight: normal;
+    font-family: poppins,sans-serif;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: wrap !important;
+    text-align: center !important;
+}
+.navbar-brand {
+    display: block !important;
+    width: 100% !important;
+    font-size:1.8rem;
+}
+.navbar-brand span {
+  color: #fbac2e;
+}
+.navbar-expand-lg .navbar-nav {
+margin: auto;
+}
+.navbar-expand-lg .navbar-nav li{
+margin: 1rem 8rem 0 0;
+border-radius: 10px;
+padding: 5px 30px;
+    margin: 15px 15px;
+    color: #514f4f;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.navbar-expand-lg .navbar-nav li:hover{
+    background-color: black;
+    color: white !important;
+}
+.navbar-expand-lg .navbar-nav li:checked{
+    background-color: black;
+    color: white !important;
+}
+.navbar-expand-lg .navbar-nav li:hover .nav-link{
+    color: white !important;
+}
+.navbar-expand-lg .navbar-nav li:checked .nav-link{
+    color: white !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: white !important;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active .P1{
+    display: flex;
+    background-color: black;
+    height: 25rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active .P1 .div-img , .div-text{
+    width: 50%;
+    height: 23rem;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active .P1 .div-text{
+    padding: 4rem;
+    color: white;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active .P1 .div-img img{
+    height: 23rem;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active .P1 .div-text a{
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #fff;
+    color: #000;
+    border: 1.5px solid #fff;
+    border-radius: 5px;
+    margin-top: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active .P1 .div-text a:hover{
+    color: white;
+    background-color: #000000;
+}
+.carousel .next1{
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    top: 92%;
+    right: 2rem;
+}
+.carousel .prev1{
+    height: 1.5rem;
+    width: 1.5rem;
+    position: absolute;
+    top: 92%;
+    left: 70rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    /* ****************************************************************************** */
+.navbar-brand {
+    width: 13% !important;
+    font-size: 1.2rem;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active .P1 .div-text p{
+    font-size: .5rem;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active .P1 .div-text h1{
+    font-size: 1.3rem;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active .P1 .div-text a {
+    padding: 8px 20px;
+    font-size: .6rem;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active .P1 .div-img img {
+    height: 20rem;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active .P1 .div-img, .div-text {
+    height: 20rem;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active .P1 {
+    height: 22rem;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+}
+.navbar-expand-lg .navbar-nav li {
+    font-size: .8rem;
+    margin: 1rem 8rem 0 0;
+    border-radius: 10px;
+    padding: 0px 33px;
+    margin: 5px 15px;
+    color: #514f4f;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.carousel .prev1 {
+    left: 17rem;
+}
+}
+
+
+/* small Screens */
+@media screen and (min-width: 768px) {
+    .navbar-brand {
+        width: 13% !important;
+        font-size: 1.2rem;
+    }
+}
+
+/* Medium Screen */
+@media screen and (min-width: 992px) {
+    .navbar-brand {
+        display: block !important;
+        width: 100% !important;
+        font-size:1.8rem;
+    }
+    .carousel .prev1 {
+        height: 1.5rem;
+        width: 1.5rem;
+        position: absolute;
+        top: 92%;
+        left: 50rem;
+    }
+}
+/* Large Screens */
+@media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 1200px) {
+    .carousel .prev1 {
+        height: 1.5rem;
+        width: 1.5rem;
+        position: absolute;
+        top: 92%;
+        left: 70rem;
+    }
+}
+
+
